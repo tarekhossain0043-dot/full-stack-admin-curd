@@ -1,3 +1,4 @@
+import { ChevronLeft } from "lucide-react";
 import React from "react";
 
 export default function UserLogin() {
@@ -73,6 +74,12 @@ export default function UserLogin() {
         <button className="px-4 py-2.5 text-sm rounded-sm bg-secondary text-white hover:bg-primary hover:text-white transition-all duration-300 ease-in-out capitalize cursor-pointer">
           Cancel
         </button>
+      </div>
+      <div className="flex items-center mt-20 gap-1 transition-all duration-500 ease-in-out group">
+        <ChevronLeft className="w-4 h-4 cursor-pointer transition-all duration-300 ease-in-out group-hover:mr-2" />
+        <span className="capitalize text-sm text-black cursor-pointer transition-all duration-300 ease-in-out group-hover:text-primary">
+          View all teachers
+        </span>
       </div>
     </div>
   );

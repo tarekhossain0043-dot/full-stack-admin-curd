@@ -11,6 +11,9 @@ import img8 from "../sidebar-img/dashboard-icon.png";
 import img9 from "../sidebar-img/dashboard-icon.png";
 import img10 from "../sidebar-img/dashboard-icon.png";
 
+// usr img
+import userImg from "../user-img/user-img.png";
+
 export const sidebarData = [
   {
     id: nanoid(3),
@@ -81,3 +84,66 @@ export const sidebarData = [
 ];
 
 export const userHistory = [{}];
+
+export const list_of_teacher = [
+  {
+    id: 1,
+    img: userImg,
+    name: "Kristin Watson",
+    subject: "Chemistry",
+    mail: "michelle.rivera@example.com",
+    dep: "ITE",
+    gender: "Female",
+    status: ["Active", "Inactive"],
+    view: "View",
+    btn: "Edit/Delete",
+  },
+  {
+    id: 2,
+    img: userImg,
+    name: "Kristin Watson",
+    subject: "Chemistry",
+    mail: "michelle.rivera@example.com",
+    dep: "ITE",
+    gender: "Female",
+    status: ["Active", "Inactive"],
+    view: "View",
+    btn: "Edit/Delete",
+  },
+  {
+    id: 3,
+    img: userImg,
+    name: "Kristin Watson",
+    subject: "Chemistry",
+    mail: "michelle.rivera@example.com",
+    dep: "ITE",
+    gender: "Female",
+    status: ["Active", "Inactive"],
+    view: "View",
+    btn: "Edit/Delete",
+  },
+  {
+    id: 4,
+    img: userImg,
+    name: "Kristin Watson",
+    subject: "Chemistry",
+    mail: "michelle.rivera@example.com",
+    dep: "ITE",
+    gender: "Female",
+    status: ["Active", "Inactive"],
+    view: "View",
+    btn: "Edit/Delete",
+  },
+  {
+    id: 5,
+    img: userImg,
+    name: "Kristin Watson",
+    subject: "Chemistry",
+    mail: "michelle.rivera@example.com",
+    dep: "ITE",
+    gender: "Female",
+    status: ["Active", "Inactive"],
+    view: "View",
+    btn: "Edit/Delete",
+  },
+];
