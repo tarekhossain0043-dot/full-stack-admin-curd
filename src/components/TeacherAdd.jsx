@@ -1,6 +1,7 @@
 import React from "react";
 import _importImg from "../assets/import_cvc.png";
 import student_img from "../assets/student_img.png";
+import { ChevronRight } from "lucide-react";
 export default function TeacherAdd() {
   return (
     <div>
@@ -251,6 +252,9 @@ export default function TeacherAdd() {
           ></textarea>
         </div>
       </div>
+      <button className="pl-6 pr-2 py-3 text-sm font-medium cursor-pointer transition-all duration-300 ease-in-out hover:text-primary rounded-sm bg-secondary text-center flex items-center gap-2">
+        Next <ChevronRight className="w-4 h-4" />
+      </button>
     </div>
   );
 }

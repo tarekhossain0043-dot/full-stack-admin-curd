@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import userImg from "../assets/user-img/user-img.png";
 import { ChevronDown, Bell, BellDotIcon } from "lucide-react";
+import { NavLink } from "react-router-dom";
 export default function Header() {
   const [userOpen, setUserOpen] = useState(false);
+
   return (
     <div className="text-[#716666] py-6 border-b border-slate-100 px-10 max-[640px]:px-4 flex items-center max-[640px]:justify-end justify-between">
       <span className="text-[20px] leading-6 font-normal max-[640px]:hidden">
@@ -37,6 +39,12 @@ export default function Header() {
               <li className=" py-1 transition-all duration-300 ease-in-out  hover:text-black-h4 w-full text-left block">
                 Settings
               </li>
+              <NavLink
+                to="/logins"
+                className=" py-1 transition-all duration-300 ease-in-out  hover:text-black-h4 w-full text-left block"
+              >
+                Sign in
+              </NavLink>
             </ul>
           </div>
         </div>
