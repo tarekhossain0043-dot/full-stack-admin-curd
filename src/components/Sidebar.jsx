@@ -15,10 +15,12 @@ export default function Sidebar({ openSidebar, setOpenSidebar }) {
     } else {
       setOpenSidebar(false);
     }
+    window.addEventListener("resize", () => {});
   }, [setOpenSidebar]);
+
   return (
     <div
-      className={`${openSidebar ? "w-20" : "w-60"} bg-secondary py-8 px-5 transition-all duration-500 ease-in-out fixed top-0 left-0 min-h-svh overflow-y-scroll`}
+      className={`${openSidebar ? "w-20" : "w-60"} bg-secondary py-8 px-5 min-h-screen transition-all duration-500 ease-in-out fixed top-0 left-0 overflow-y-scroll`}
     >
       {/* sidebar head */}
       <div className="pb-10">

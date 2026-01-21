@@ -4,6 +4,7 @@ import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import Students from "./pages/Students";
 import Teachers from "./pages/Teachers";
+import TeacherAdd from "./components/TeacherAdd";
 export default function App() {
   return (
     <div>
@@ -11,6 +12,7 @@ export default function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="/teachers" element={<Teachers />} />
+          <Route path="/add_teacher" element={<TeacherAdd />} />
         </Route>
       </Routes>
     </div>
